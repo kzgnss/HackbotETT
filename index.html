@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>አእምሮ መተንተኛ - ተቀላቀል</title>
+  <title>AI ጨዋታ እቅፍ ትንበያ - ኢትዮጵያ</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <style>
     .console-box {
@@ -38,87 +38,85 @@
 </head>
 <body class="bg-gray-900 text-white font-sans">
   <div id="loading" class="loading-screen">
-    <p>በመጫን ላይ... እባክዎ ትንሽ ይጠብቁ።</p>
+    <p>በእባኮት ይጠብቁ... ተገቢ አገልግሎቶትን እየነጻነው ነው።</p>
   </div>
 
   <div id="mainContent" class="hidden-screen">
     <header class="w-full bg-gray-800 p-4 flex justify-between items-center">
-      <h1 class="text-xl font-bold text-green-400">አእምሮ መተንተኛ 1xBet</h1>
+      <h1 class="text-xl font-bold text-green-400">1xBet AI ትንበያ</h1>
       <nav class="space-x-4">
-        <a href="#how" class="hover:text-green-400">እንዴት ነው</a>
+        <a href="#how" class="hover:text-green-400">እንዴት ነው የሚሰራው</a>
         <a href="#games" class="hover:text-green-400">ጨዋታዎች</a>
         <a href="#start" class="hover:text-green-400">ጀምር</a>
       </nav>
     </header>
 
     <section class="min-h-screen flex flex-col items-center justify-center px-4 text-center">
-      <h2 class="text-3xl md:text-5xl font-bold mb-6">በ AI መተንተኛ እውነተኛ ገንዘብ ያግኙ</h2>
-      <p class="max-w-xl mb-8 text-gray-300">በኢትዮጵያ በአይነስ እንደ Aviator, Mines እና Penalty ጨዋታዎች የሚለቀቁትን የማስተንተኛ መረጃዎች ይጠቀሙ። 98% ትክክልነት፣ በቅድሚያ እንደሚሰጥ ምልክቶች፣ ፈጣን ውጪ!</p>
-      
-      <input id="userId" type="text" placeholder="የ 1xBet መለያ ቁጥር ያስገቡ" class="bg-gray-700 text-white p-3 rounded-md mb-4" />
-      <button id="connectButton" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-xl text-lg transition">መለያ ያገናኙ</button>
-
-      <div id="connectionSuccess" class="hidden text-green-400 font-bold mt-6">
-        <p>መለያዎ በተሳካ ሁኔታ ተገናኝቷል: <span id="accountIdDisplay">1234567890</span></p>
-        <p>ሁኔታ: ተግባራዊ | ትክክልነት 100% | በ AI ተቆጣጠረ</p>
-        <button id="getSignalButton" class="bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-xl text-lg transition mt-4">ምልክት ይቀበሉ</button>
-      </div>
-
+      <h2 class="text-3xl md:text-5xl font-bold mb-6">በAI ትንበያ በእውነተኛ ገንዘብ ያበረታችሁ!</h2>
+      <p class="max-w-xl mb-8 text-gray-300">በAviator, Mines እና Penalty ውስጥ ይሸምቱ፣ በ98% ትክክለኛ ምልክቶች፣ በቀጥታ ትንበያዎችና ፈጣን ውጪ እንዲያገኙ!</p>
+      <button id="startButton" class="bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-xl text-lg transition">አሁን ጀምር</button>
       <div id="errorBox" class="hidden bg-red-600 p-6 rounded-xl max-w-md mx-auto mt-6">
-        <h2 class="text-xl font-bold mb-2">⚠️ ተቀላቀል አልተገኘም</h2>
-        <p class="mb-4">እባኮትን ቢያንስ <strong>300 ብር</strong> በመክፈል መተንተኛ ምልክቶች ይከፈቱ።</p>
-        <a href="https://affpa.top/L?tag=d_4299223m_22391c_&site=4299223&ad=22391&r=registration" target="_blank" id="depositButton" class="inline-block bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-2 px-4 rounded-lg transition">
-          አሁን በ 1xBet ተቀላቀል (ኮድ: BYPASS11)
+        <h2 class="text-xl font-bold mb-2">⚠️ መለያ አልተገኘም</h2>
+        <p class="mb-4">እባኮትን አዲስ 1xBet መለያ ይፍጠሩና ተመዝግበው ተቀላቀሉ።</p>
+        <p class="text-lg mb-4 text-yellow-400">የልዩ ፕሮሞ ኮድ: <strong>BYPASS11</strong></p>
+        <a href="https://affpa.top/L?tag=d_4299223m_22391c_&site=4299223&ad=22391&r=registration" target="_blank" class="inline-block bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-2 px-4 rounded-lg transition">
+          መዝግብ በ1xBet
         </a>
       </div>
     </section>
 
     <section class="bg-gray-800 py-12 px-6 text-center">
-      <h3 class="text-2xl font-bold text-green-400 mb-6">ዛሬ ምርጥ አሸናፊዎች (ብር)</h3>
+      <h3 class="text-2xl font-bold text-green-400 mb-6">የዛሬ ታላቁ አሸናፊዎች (ብር)</h3>
       <div class="grid md:grid-cols-2 gap-4 text-left max-w-4xl mx-auto text-sm text-green-300">
-        <p>👤 መለያ: 1218473422 – 275,328 ብር</p>
-        <p>👤 መለያ: 9912384741 – 221,900 ብር</p>
-        <p>👤 መለያ: 3099234822 – 184,120 ብር</p>
-        <p>👤 መለያ: 1187339121 – 150,000 ብር</p>
+        <p>👤 ID: 1218473422 – 275,328 ብር</p>
+        <p>👤 ID: 9912384741 – 221,900 ብር</p>
+        <p>👤 ID: 3099234822 – 184,120 ብር</p>
+        <p>👤 ID: 1187339121 – 150,000 ብር</p>
+        <p>👤 ID: 4412900113 – 132,850 ብር</p>
+        <p>👤 ID: 8283721091 – 128,440 ብር</p>
+        <p>👤 ID: 7751937742 – 100,705 ብር</p>
+        <p>👤 ID: 5554921811 – 98,330 ብር</p>
+        <p>👤 ID: 1983238742 – 85,000 ብር</p>
+        <p>👤 ID: 3377749301 – 79,210 ብር</p>
       </div>
     </section>
 
     <section id="games" class="bg-gray-800 py-12 px-6 text-center">
-      <h3 class="text-2xl font-bold text-green-400 mb-6">የተደገፉ ጨዋታዎች</h3>
+      <h3 class="text-2xl font-bold text-green-400 mb-6">የተደጋጋሚ ጨዋታዎች</h3>
       <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
         <div class="bg-gray-700 p-6 rounded-xl shadow-lg">
           <h4 class="text-xl font-bold mb-2">🎮 Aviator</h4>
-          <p class="text-gray-300">ከአውሮፕላኑ ሳይጠፋ በፊት ይውጡ!</p>
+          <p class="text-gray-300">ከነፋሱ በፊት ወጣ። AI ትንበያ በቅርብ ጊዜ ይጠብቃል።</p>
         </div>
         <div class="bg-gray-700 p-6 rounded-xl shadow-lg">
           <h4 class="text-xl font-bold mb-2">💣 Mines</h4>
-          <p class="text-gray-300">ነጥብ ሰብስቡ፣ ቦምቦችን ያስወግዱ።</p>
+          <p class="text-gray-300">ቦምቦችን ተርተው ሽማግሌነት አሸናፊ ይሁኑ። ዝቅተኛ አደጋ የለም።</p>
         </div>
         <div class="bg-gray-700 p-6 rounded-xl shadow-lg">
           <h4 class="text-xl font-bold mb-2">🥅 Penalty</h4>
-          <p class="text-gray-300">ተጠባባቂውን ይሸነፉ፣ ወዴት መጓዝ እንደሚገባ ይሁን!</p>
+          <p class="text-gray-300">ወደ እንቅፋት ወይም ቀኝ ተመልከት። AI በመረጃ ተመስርቶ ይጠቀማል።</p>
         </div>
       </div>
     </section>
 
     <section id="how" class="bg-gray-900 py-12 px-6 text-center">
-      <h3 class="text-2xl font-bold text-green-400 mb-6">እንዴት ነው</h3>
+      <h3 class="text-2xl font-bold text-green-400 mb-6">እንዴት ነው የሚሰራው</h3>
       <div class="max-w-3xl mx-auto space-y-4 text-gray-300">
-        <p>📡 AI የቀጥታ ጨዋታዎችን ይቆጣጠራል።</p>
-        <p>💡 የሚያሸንፉ ቅደም ተከተሎችን ይገናኛል።</p>
-        <p>📲 በቅድሚያ ምልክት ይቀበሉ።</p>
+        <p>📡 በቅድሚያ የጨዋታ ውጤቶችን እና ትዕዛዞችን እየተከታተለ ነው።</p>
+        <p>💡 የስርዓቱ ትዕዛዞችን ያስተውላል።</p>
+        <p>📲 ትክክለኛ ትንበያዎችን በቅድሚያ ያስተላልፋል።</p>
       </div>
     </section>
 
     <section class="bg-black py-12 px-6 text-center">
-      <h3 class="text-xl font-bold text-green-400 mb-4">[ ቁጥጥር ኮንሶል ]</h3>
+      <h3 class="text-xl font-bold text-green-400 mb-4">[ ኮንሶል ነጥብ ]</h3>
       <div class="console-box max-w-3xl mx-auto text-left" id="console">
-        <p>[መረጃ] የመተንተኛ አገልግሎት ተከፍቷል ✅</p>
+        <p>[መረጃ] አገልግሎት በተግባር ላይ ✅</p>
       </div>
     </section>
 
     <footer class="text-center text-gray-500 text-sm py-6">
-      © 2025 AI መተንተኛ። ከ 1xBet ጋር በተያያዘ አይደለም። በተጠናቀቀ ሁኔታ ይጠቀሙ።
+      © 2025 AI ትንበያ። ከ1xBet ጋር በቀጥታ አይያያዝም። በተጠናቀቀ ሁኔታ ይጠቀሙ።
     </footer>
   </div>
 
@@ -128,16 +126,7 @@
       document.getElementById("mainContent").classList.remove("hidden-screen");
     }, 3000);
 
-    document.getElementById("connectButton").addEventListener("click", () => {
-      const userId = document.getElementById("userId").value;
-      if (userId) {
-        document.getElementById("accountIdDisplay").innerText = userId;
-        document.getElementById("connectionSuccess").classList.remove("hidden");
-        document.getElementById("errorBox").classList.add("hidden");
-      }
-    });
-
-    document.getElementById("getSignalButton").addEventListener("click", () => {
+    document.getElementById("startButton").addEventListener("click", () => {
       document.getElementById("errorBox").classList.remove("hidden");
     });
   </script>
